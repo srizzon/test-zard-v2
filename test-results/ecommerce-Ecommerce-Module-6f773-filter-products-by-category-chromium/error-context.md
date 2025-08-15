@@ -1,0 +1,348 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Zard Shop":
+    - /url: /shop
+    - img
+    - text: Zard Shop
+  - navigation:
+    - link "Products":
+      - /url: /shop/products
+    - link "Deals":
+      - /url: "#"
+    - link "About":
+      - /url: "#"
+  - img
+  - searchbox "Search products..."
+  - button:
+    - img
+  - button:
+    - img
+- main:
+  - text: Filters Search 
+  - searchbox "Search products..."
+  - button "Category " [expanded]
+  - region "Category ":
+    - main:
+      - button "Clear Category"
+      - main:
+        - radio "All Categories (18)"
+        - img
+      - text: All Categories (18)
+      - main:
+        - radio "All (18)"
+        - img
+      - text: All (18)
+      - main:
+        - radio "Electronics (6)" [checked]
+        - img
+      - text: Electronics (6)
+      - main:
+        - radio "Clothing (3)"
+        - img
+      - text: Clothing (3)
+      - main:
+        - radio "Home & Garden (2)"
+        - img
+      - text: Home & Garden (2)
+      - main:
+        - radio "Accessories (2)"
+        - img
+      - text: Accessories (2)
+      - main:
+        - radio "Sports & Fitness (2)"
+        - img
+      - text: Sports & Fitness (2)
+      - main:
+        - radio "Kitchen (1)"
+        - img
+      - text: Kitchen (1)
+      - main:
+        - radio "Beauty & Personal Care (1)"
+        - img
+      - text: Beauty & Personal Care (1)
+      - main:
+        - radio "Home & Office (1)"
+        - img
+      - text: Home & Office (1)
+  - button "Price Range " [expanded]
+  - region "Price Range ":
+    - main:
+      - text: Up to $2000
+      - slider
+      - text: $0 $2000+
+      - button "Under $50"
+      - button "Under $100"
+      - button "Under $200"
+      - button "$500+"
+  - button "Brand " [expanded]
+  - region "Brand ":
+    - main:
+      - main:
+        - checkbox " AudioTech (1)"
+        - text: 
+      - text: AudioTech (1)
+      - main:
+        - checkbox " EcoWear (1)"
+        - text: 
+      - text: EcoWear (1)
+      - main:
+        - checkbox " FitTrack (1)"
+        - text: 
+      - text: FitTrack (1)
+      - main:
+        - checkbox " LightCraft (1)"
+        - text: 
+      - text: LightCraft (1)
+      - main:
+        - checkbox " LeatherCraft (1)"
+        - text: 
+      - text: LeatherCraft (1)
+      - main:
+        - checkbox " ChargeTech (1)"
+        - text: 
+      - text: ChargeTech (1)
+      - main:
+        - checkbox " SportMax (1)"
+        - text: 
+      - text: SportMax (1)
+      - main:
+        - checkbox " GreenSpace (1)"
+        - text: 
+      - text: GreenSpace (1)
+      - main:
+        - checkbox " SoundWave (1)"
+        - text: 
+      - text: SoundWave (1)
+      - main:
+        - checkbox " WoolCraft (1)"
+        - text: 
+      - text: WoolCraft (1)
+      - main:
+        - checkbox " GameTech (1)"
+        - text: 
+      - text: GameTech (1)
+      - main:
+        - checkbox " ZenFlow (1)"
+        - text: 
+      - text: ZenFlow (1)
+      - main:
+        - checkbox " BrewMaster (1)"
+        - text: 
+      - text: BrewMaster (1)
+      - main:
+        - checkbox " TravelGear (1)"
+        - text: 
+      - text: TravelGear (1)
+      - main:
+        - checkbox " GlowLab (1)"
+        - text: 
+      - text: GlowLab (1)
+      - main:
+        - checkbox " EcoDesk (1)"
+        - text: 
+      - text: EcoDesk (1)
+      - main:
+        - checkbox " ErgoTech (1)"
+        - text: 
+      - text: ErgoTech (1)
+      - main:
+        - checkbox " HydroFlow (1)"
+        - text: 
+      - text: HydroFlow (1)
+  - button "Colors "
+  - region "Colors ":
+    - main:
+      - button
+      - text: black
+      - button
+      - text: white
+      - button
+      - text: blue
+      - button
+      - text: gray
+      - button
+      - text: navy
+      - button
+      - text: silver
+      - button
+      - text: rose-gold
+      - button
+      - text: brown
+      - button
+      - text: tan
+      - button
+      - text: red
+      - button
+      - text: terracotta
+      - button
+      - text: burgundy
+      - button
+      - text: cream
+      - button
+      - text: purple
+      - button
+      - text: green
+      - button
+      - text: pink
+      - button
+      - text: stainless
+      - button
+      - text: natural
+  - button "Customer Rating "
+  - region "Customer Rating ":
+    - main:
+      - main:
+        - radio "All Ratings" [checked]
+        - img
+      - text: All Ratings
+      - main:
+        - radio "     & Up (0)"
+        - img
+      - text:      & Up (0)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+  - button "Availability "
+  - region "Availability ":
+    - main:
+      - main:
+        - checkbox " In Stock Only (16)"
+        - text: 
+      - text: In Stock Only (16)
+  - text: 
+  - heading "Active Filters" [level=5]
+  - text: 1 filter applied
+  - button "Clear All Filters (1)"
+  - paragraph: Showing 1-6 of 6 products
+  - text: "Active filters: Electronics"
+  - button "×"
+  - group:
+    - button "Grid View" [pressed]
+    - button "List View"
+  - button:
+    - img
+  - img "Bluetooth Speaker"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Bluetooth Speaker" [level=3]
+  - paragraph: SoundWave
+  - text:      (167) $89 $119
+  - button "Add to Cart"
+  - img "Gaming Mechanical Keyboard"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Gaming Mechanical Keyboard" [level=3]
+  - paragraph: GameTech
+  - text:      (312) $159 $199
+  - button "Add to Cart"
+  - img "Premium Wireless Headphones"
+  - text: Sale New
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Premium Wireless Headphones" [level=3]
+  - paragraph: AudioTech
+  - text:      (128) $299 $399
+  - button "Add to Cart"
+  - img "Smart Fitness Watch"
+  - text: Out of Stock
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Smart Fitness Watch" [level=3]
+  - paragraph: FitTrack
+  - text:      (256) $199
+  - button "Notify Me" [disabled]
+  - img "Wireless Charging Pad"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Wireless Charging Pad" [level=3]
+  - paragraph: ChargeTech
+  - text:      (156) $39
+  - button "Add to Cart"
+  - img "Wireless Mouse Ergonomic"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Wireless Mouse Ergonomic" [level=3]
+  - paragraph: ErgoTech
+  - text:      (176) $45
+  - button "Add to Cart"
+  - navigation "pagination-content":
+    - button "" [disabled]
+    - button "1"
+    - button "" [disabled]
+- contentinfo:
+  - img
+  - text: Zard Shop
+  - paragraph: Your trusted online store for quality products at great prices.
+  - heading "Quick Links" [level=3]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "FAQ":
+        - /url: "#"
+    - listitem:
+      - link "Support":
+        - /url: "#"
+  - heading "Categories" [level=3]
+  - list:
+    - listitem:
+      - link "Electronics":
+        - /url: /shop/products%3Fcategory%3DElectronics
+    - listitem:
+      - link "Clothing":
+        - /url: /shop/products%3Fcategory%3DClothing
+    - listitem:
+      - link "Home & Garden":
+        - /url: /shop/products%3Fcategory%3DHome%20&%20Garden
+    - listitem:
+      - link "Kitchen":
+        - /url: /shop/products%3Fcategory%3DKitchen
+  - heading "Customer Service" [level=3]
+  - list:
+    - listitem:
+      - link "Shipping Info":
+        - /url: "#"
+    - listitem:
+      - link "Returns":
+        - /url: "#"
+    - listitem:
+      - link "Privacy Policy":
+        - /url: "#"
+    - listitem:
+      - link "Terms of Service":
+        - /url: "#"
+  - paragraph: © 2024 Zard Shop. All rights reserved.
+```

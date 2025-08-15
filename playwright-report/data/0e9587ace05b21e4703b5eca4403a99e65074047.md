@@ -1,0 +1,402 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Zard Shop":
+    - /url: /shop
+    - img
+    - text: Zard Shop
+  - button:
+    - img
+  - button:
+    - img
+  - img
+  - searchbox "Search products..."
+  - navigation:
+    - link "Products":
+      - /url: /shop/products
+    - link "Categories":
+      - /url: "#"
+    - link "Deals":
+      - /url: "#"
+    - link "About":
+      - /url: "#"
+- main:
+  - text: Filters Search 
+  - searchbox "Search products..."
+  - button "Category " [expanded]
+  - region "Category ":
+    - main:
+      - main:
+        - radio "All Categories (18)" [checked]
+        - img
+      - text: All Categories (18)
+      - main:
+        - radio "All (18)"
+        - img
+      - text: All (18)
+      - main:
+        - radio "Electronics (6)"
+        - img
+      - text: Electronics (6)
+      - main:
+        - radio "Clothing (3)"
+        - img
+      - text: Clothing (3)
+      - main:
+        - radio "Home & Garden (2)"
+        - img
+      - text: Home & Garden (2)
+      - main:
+        - radio "Accessories (2)"
+        - img
+      - text: Accessories (2)
+      - main:
+        - radio "Sports & Fitness (2)"
+        - img
+      - text: Sports & Fitness (2)
+      - main:
+        - radio "Kitchen (1)"
+        - img
+      - text: Kitchen (1)
+      - main:
+        - radio "Beauty & Personal Care (1)"
+        - img
+      - text: Beauty & Personal Care (1)
+      - main:
+        - radio "Home & Office (1)"
+        - img
+      - text: Home & Office (1)
+  - button "Price Range " [expanded]
+  - region "Price Range ":
+    - main:
+      - text: Up to $2000
+      - slider
+      - text: $0 $2000+
+      - button "Under $50"
+      - button "Under $100"
+      - button "Under $200"
+      - button "$500+"
+  - button "Brand " [expanded]
+  - region "Brand ":
+    - main:
+      - main:
+        - checkbox " AudioTech (1)"
+        - text: 
+      - text: AudioTech (1)
+      - main:
+        - checkbox " EcoWear (1)"
+        - text: 
+      - text: EcoWear (1)
+      - main:
+        - checkbox " FitTrack (1)"
+        - text: 
+      - text: FitTrack (1)
+      - main:
+        - checkbox " LightCraft (1)"
+        - text: 
+      - text: LightCraft (1)
+      - main:
+        - checkbox " LeatherCraft (1)"
+        - text: 
+      - text: LeatherCraft (1)
+      - main:
+        - checkbox " ChargeTech (1)"
+        - text: 
+      - text: ChargeTech (1)
+      - main:
+        - checkbox " SportMax (1)"
+        - text: 
+      - text: SportMax (1)
+      - main:
+        - checkbox " GreenSpace (1)"
+        - text: 
+      - text: GreenSpace (1)
+      - main:
+        - checkbox " SoundWave (1)"
+        - text: 
+      - text: SoundWave (1)
+      - main:
+        - checkbox " WoolCraft (1)"
+        - text: 
+      - text: WoolCraft (1)
+      - main:
+        - checkbox " GameTech (1)"
+        - text: 
+      - text: GameTech (1)
+      - main:
+        - checkbox " ZenFlow (1)"
+        - text: 
+      - text: ZenFlow (1)
+      - main:
+        - checkbox " BrewMaster (1)"
+        - text: 
+      - text: BrewMaster (1)
+      - main:
+        - checkbox " TravelGear (1)"
+        - text: 
+      - text: TravelGear (1)
+      - main:
+        - checkbox " GlowLab (1)"
+        - text: 
+      - text: GlowLab (1)
+      - main:
+        - checkbox " EcoDesk (1)"
+        - text: 
+      - text: EcoDesk (1)
+      - main:
+        - checkbox " ErgoTech (1)"
+        - text: 
+      - text: ErgoTech (1)
+      - main:
+        - checkbox " HydroFlow (1)"
+        - text: 
+      - text: HydroFlow (1)
+  - button "Colors "
+  - region "Colors ":
+    - main:
+      - button
+      - text: black
+      - button
+      - text: white
+      - button
+      - text: blue
+      - button
+      - text: gray
+      - button
+      - text: navy
+      - button
+      - text: silver
+      - button
+      - text: rose-gold
+      - button
+      - text: brown
+      - button
+      - text: tan
+      - button
+      - text: red
+      - button
+      - text: terracotta
+      - button
+      - text: burgundy
+      - button
+      - text: cream
+      - button
+      - text: purple
+      - button
+      - text: green
+      - button
+      - text: pink
+      - button
+      - text: stainless
+      - button
+      - text: natural
+  - button "Customer Rating "
+  - region "Customer Rating ":
+    - main:
+      - main:
+        - radio "All Ratings" [checked]
+        - img
+      - text: All Ratings
+      - main:
+        - radio "     & Up (0)"
+        - img
+      - text:      & Up (0)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+      - main:
+        - radio "     & Up (18)"
+        - img
+      - text:      & Up (18)
+  - button "Availability "
+  - region "Availability ":
+    - main:
+      - main:
+        - checkbox " In Stock Only (16)"
+        - text: 
+      - text: In Stock Only (16)
+  - button "Clear All Filters" [disabled]
+  - paragraph: Showing 1-12 of 18 products
+  - group:
+    - button "Grid View" [pressed]
+    - button "List View"
+  - button:
+    - img
+  - img "Backpack Travel Pro"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Backpack Travel Pro" [level=3]
+  - paragraph: TravelGear
+  - text:      (156) $89
+  - button "Add to Cart"
+  - img "Bluetooth Speaker"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Bluetooth Speaker" [level=3]
+  - paragraph: SoundWave
+  - text:      (167) $89 $119
+  - button "Add to Cart"
+  - img "Coffee Maker Deluxe"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Coffee Maker Deluxe" [level=3]
+  - paragraph: BrewMaster
+  - text:      (87) $129 $169
+  - button "Add to Cart"
+  - img "Desk Organizer Bamboo"
+  - text: Out of Stock
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Desk Organizer Bamboo" [level=3]
+  - paragraph: EcoDesk
+  - text:      (98) $39
+  - button "Notify Me" [disabled]
+  - img "Gaming Mechanical Keyboard"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Gaming Mechanical Keyboard" [level=3]
+  - paragraph: GameTech
+  - text:      (312) $159 $199
+  - button "Add to Cart"
+  - img "Indoor Plant Pot"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Indoor Plant Pot" [level=3]
+  - paragraph: GreenSpace
+  - text:      (88) $35
+  - button "Add to Cart"
+  - img "Leather Messenger Bag"
+  - text: Sale
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Leather Messenger Bag" [level=3]
+  - paragraph: LeatherCraft
+  - text:      (73) $189 $249
+  - button "Add to Cart"
+  - img "Minimalist Desk Lamp"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Minimalist Desk Lamp" [level=3]
+  - paragraph: LightCraft
+  - text:      (64) $79
+  - button "Add to Cart"
+  - img "Organic Cotton T-Shirt"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Organic Cotton T-Shirt" [level=3]
+  - paragraph: EcoWear
+  - text:      (89) $29
+  - button "Add to Cart"
+  - img "Premium Wireless Headphones"
+  - text: Sale New
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Premium Wireless Headphones" [level=3]
+  - paragraph: AudioTech
+  - text:      (128) $299 $399
+  - button "Add to Cart"
+  - img "Running Sneakers"
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Running Sneakers" [level=3]
+  - paragraph: SportMax
+  - text:      (201) $129
+  - button "Add to Cart"
+  - img "Skincare Set Luxury"
+  - text: Sale New
+  - button:
+    - img
+  - button:
+    - img
+  - heading "Skincare Set Luxury" [level=3]
+  - paragraph: GlowLab
+  - text:      (234) $199 $259
+  - button "Add to Cart"
+  - navigation "pagination-content":
+    - button "" [disabled]
+    - button "1"
+    - button "2"
+    - button ""
+- contentinfo:
+  - img
+  - text: Zard Shop
+  - paragraph: Your trusted online store for quality products at great prices.
+  - heading "Quick Links" [level=3]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "FAQ":
+        - /url: "#"
+    - listitem:
+      - link "Support":
+        - /url: "#"
+  - heading "Categories" [level=3]
+  - list:
+    - listitem:
+      - link "Electronics":
+        - /url: /shop/products%3Fcategory%3DElectronics
+    - listitem:
+      - link "Clothing":
+        - /url: /shop/products%3Fcategory%3DClothing
+    - listitem:
+      - link "Home & Garden":
+        - /url: /shop/products%3Fcategory%3DHome%20&%20Garden
+    - listitem:
+      - link "Kitchen":
+        - /url: /shop/products%3Fcategory%3DKitchen
+  - heading "Customer Service" [level=3]
+  - list:
+    - listitem:
+      - link "Shipping Info":
+        - /url: "#"
+    - listitem:
+      - link "Returns":
+        - /url: "#"
+    - listitem:
+      - link "Privacy Policy":
+        - /url: "#"
+    - listitem:
+      - link "Terms of Service":
+        - /url: "#"
+  - paragraph: © 2024 Zard Shop. All rights reserved.
+```

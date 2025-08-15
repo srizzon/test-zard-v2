@@ -1,0 +1,82 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Zard Shop":
+    - /url: /shop
+    - img
+    - text: Zard Shop
+  - navigation:
+    - link "Products":
+      - /url: /shop/products
+    - link "Deals":
+      - /url: "#"
+    - link "About":
+      - /url: "#"
+  - img
+  - searchbox "Search products..."
+  - button:
+    - img
+  - button:
+    - img
+- main:
+  - navigation "breadcrumb":
+    - listitem: Home
+    - listitem: Wishlist
+  - heading "My Wishlist" [level=1]
+  - paragraph: 0 items saved for later
+  - img
+  - text: 
+  - heading "Your wishlist is empty" [level=5]
+  - text: Start browsing and save products you love to your wishlist.
+  - button "Continue Shopping":
+    - img
+    - text: Continue Shopping
+- contentinfo:
+  - img
+  - text: Zard Shop
+  - paragraph: Your trusted online store for quality products at great prices.
+  - heading "Quick Links" [level=3]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: "#"
+    - listitem:
+      - link "Contact":
+        - /url: "#"
+    - listitem:
+      - link "FAQ":
+        - /url: "#"
+    - listitem:
+      - link "Support":
+        - /url: "#"
+  - heading "Categories" [level=3]
+  - list:
+    - listitem:
+      - link "Electronics":
+        - /url: /shop/products%3Fcategory%3DElectronics
+    - listitem:
+      - link "Clothing":
+        - /url: /shop/products%3Fcategory%3DClothing
+    - listitem:
+      - link "Home & Garden":
+        - /url: /shop/products%3Fcategory%3DHome%20&%20Garden
+    - listitem:
+      - link "Kitchen":
+        - /url: /shop/products%3Fcategory%3DKitchen
+  - heading "Customer Service" [level=3]
+  - list:
+    - listitem:
+      - link "Shipping Info":
+        - /url: "#"
+    - listitem:
+      - link "Returns":
+        - /url: "#"
+    - listitem:
+      - link "Privacy Policy":
+        - /url: "#"
+    - listitem:
+      - link "Terms of Service":
+        - /url: "#"
+  - paragraph: © 2024 Zard Shop. All rights reserved.
+```
